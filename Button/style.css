@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.default {
+  margin-top: 20px;
+
+  padding: 10px 30px;
+  background-color: rgb(244, 243, 243);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.default:hover {
+  background-color: rgb(180, 180, 180);
+}
+.default_btn {
+  margin: 50px;
+}
+h1 {
+  font-size: 30px;
+}
+.brand_btn {
+  margin: 0px 50px;
+  margin-bottom: 20px;
+}
+button {
+  margin-top: 20px;
+}
+.Primary, .Secondary, .Danger,.Ghost{
+    padding :10px 30px;
+    border-radius: 15px;
+    border:none;
+    cursor:pointer;
+    transition:filter 0.5s;
+
+}
+.Primary{
+    background-color: aqua;
+}
+.Secondary{
+    background-color:rgb(252, 106, 131);
+}
+.Danger{
+    background-color: red;
+}
+.Ghost{
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.Primary:hover , .Secondary:hover,.Danger:hover{
+filter:brightness(70%);
+}
+.Ghost:hover{
+    background-color: rgb(184, 183, 183);
+}
+.outline_btn {
+    margin: 0px 50px;
+  }
+  .Primaryline, .Secondaryline, .Dangerline {
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent; /* Ensure transparent background */
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.Primaryline {
+    border: 2px solid blue;
+    color: blue;
+}
+
+.Secondaryline {
+    border: 2px solid purple; /* Changed from background */
+    color: purple;
+}
+
+.Dangerline {
+    border: 2px solid red;
+    color: red;
+}
+
+/* Hover Effects */
+.Primaryline:hover {
+    background-color: blue;
+    color: white;
+}
+
+.Secondaryline:hover {
+    background-color: purple;
+    color: white;
+}
+
+.Dangerline:hover {
+    background-color: red;
+    color: white;
+}
